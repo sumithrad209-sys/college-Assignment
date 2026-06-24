@@ -12,7 +12,7 @@ function App() {
   ]);
 
   const [filterSubject, setFilterSubject] = useState('All');
-  const subjects = ['DBMS', 'Web Dev', 'Data Structures', 'Operating Systems'];
+  const subjects = ['python', 'Web Dev', 'Data Structures', 'Operating Systems'];
 
   const handleAddAssignment = ({ newTitle, newSubject, newDueDate }) => {
     const newAssign = {
